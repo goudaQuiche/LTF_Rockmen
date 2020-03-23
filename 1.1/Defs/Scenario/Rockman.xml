@@ -3,10 +3,10 @@
 
 <ScenarioDef>
 	<defName>RockmansTribeScenario</defName>
-    <label>Rockmen - Or we will rock you jk</label>
-    <description>No pop, no techno.</description>
+    <label>Rockmen - Hike more. Worry Less.</label>
+    <description>Somewhere between the bottom of the climb and the summit is the answer to the mystery why we climb.</description>
 	<scenario>
-	<summary>Rolling stones are better.</summary>
+	<summary>The mountains are calling and I must go.</summary>
 	<playerFaction>
 		<def>PlayerFaction</def>
 		<factionDef>RockmanPlayerColony</factionDef>

@@ -231,11 +231,7 @@
 		<li><defName>Intellectual</defName><amount>-6</amount></li>
 		<li><defName>Social</defName><amount>2</amount></li>
     </skillGains>
-	<!--
-	<forcedTraits>
-		<li><defName>GreenThumb</defName><chance>100</chance></li>
-	</forcedTraits>
-	-->
+
 	<workDisables><li>Caring</li></workDisables>
     </AlienRace.BackstoryDef>
 

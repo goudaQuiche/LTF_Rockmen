@@ -59,39 +59,19 @@
 		<li><defName>Melee</defName><amount>3</amount></li>
     </skillGains>
 	
-	<forcedTraits><li><defName>Psychopath</defName><chance>100</chance></li></forcedTraits>
+	<forcedTraits>
+		<li><defName>Psychopath</defName><chance>100</chance></li>
+	</forcedTraits>
 	<workDisables><li>Social</li></workDisables>
 	
 </AlienRace.BackstoryDef>
-<!--
-NEED TO REHABILIT
-<AlienRace.BackstoryDef>
-    <defName>RockChildClodfish04</defName>
-    <title>Servitor</title>
-    <titleShort>Servitor</titleShort>
-	<baseDescription>The core tenant of Rockman culture is strength and [PAWN_nameDef] didn’t have it. Trial after trial after trial saw [PAWN_nameDef] on [PAWN_pronoun] knees and with the disapproving eyes of those [PAWN_nameDef] craved respect from burning into [PAWN_objective]. Disgusted by [PAWN_pronoun] weakness [PAWN_nameDef]’s society turned [PAWN_nameDef] into something other than a rockman so they weren’t related to [PAWN_objective] and [PAWN_pronoun] weakness, a servitor. One night as [PAWN_nameDef] was sound in bed [PAWN_pronoun] was pulled kicking and screaming into a Smooth Stone temple. On the alter the Clergy castrated [PAWN_objective] and chipped away at [PAWN_pronoun] rock skin, [PAWN_pronoun] very rockmanhood, save for a spot on his helm. There they Carved one symbol, the only one [PAWN_pronoun] will ever have. The carving of a slave.</baseDescription>
-    <slot>Childhood</slot>
 
-	<spawnCategories>
-		<li>RockmanBackstory</li>
-	</spawnCategories>
-	<skillGains>
-		<li><defName>Artistic</defName><amount>2</amount></li>
-    </skillGains>
-	
-	<forcedTraits>
-		<li><defName>Nerves</defName><degree>1</degree><chance>70</chance></li>
-	</forcedTraits>
-	<workDisables><li>Caring</li></workDisables>
-	
-</AlienRace.BackstoryDef>
--->
 
 <AlienRace.BackstoryDef>
     <defName>RockChildClodfish05</defName>
     <title>Rooted</title>
     <titleShort>Rooted</titleShort>
-	<baseDescription>A little known fact about Rockmen is they are in fact plants, born of the stone seed to burst from the ground. [PAWN_nameDef] however could not burst from the ground like [PAWN_possessive] peers as misfortune struck [PAWN_objective] early, ironically in the form of a boulder. Using all [PAWN_possessive] strength and all the strength from the ground [PAWN_nameDef] just managed to stop the rolling doom from crushing [PAWN_objective]. As birthing is seen as the first trial [PAWN_nameDef] received no help, so [PAWN_pronoun] spent [PAWN_possessive] childhood growing stronger. Slowly and without sleep pushing the boulder off [PAWN_objective]SELF. When [PAWN_pronoun] finally birthed [PAWN_pronoun] was immensely strong but [PAWN_pronoun] had little intelligence.</baseDescription>
+	<baseDescription>A little known fact about Rockmen is they are in fact plants, born of the stone seed to burst from the ground. [PAWN_nameDef] however could not burst from the ground like [PAWN_possessive] peers as misfortune struck [PAWN_objective] early, ironically in the form of a boulder. Using all [PAWN_possessive] strength and all the strength from the ground [PAWN_nameDef] just managed to stop the rolling doom from crushing [PAWN_objective]. As birthing is seen as the first trial [PAWN_nameDef] received no help, so [PAWN_pronoun] spent [PAWN_possessive] childhood growing stronger. Slowly and without sleep pushing the boulder off [PAWN_objective]self. When [PAWN_pronoun] finally birthed [PAWN_pronoun] was immensely strong but [PAWN_pronoun] had little intelligence.</baseDescription>
     <slot>Childhood</slot>
 
 	<spawnCategories>
