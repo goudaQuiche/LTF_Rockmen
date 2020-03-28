@@ -29,7 +29,7 @@
 		<baseDescription>"In the beginning there was nothing, which exploded." - Terry Pratchett</baseDescription>
 		<slot>Adulthood</slot>
 		
-		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeMale>Hulk</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
 		
 		  <spawnCategories>
@@ -290,7 +290,7 @@
 	<baseDescription>"Consciousness cannot be accounted for in physical terms. For consciousness is absolutely fundamental. It cannot be accounted for in terms of anything else." - Erwin Schrödinger</baseDescription>
     <slot>Adulthood</slot>
 
-	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeMale>Hulk</bodyTypeMale>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	
       <spawnCategories>
