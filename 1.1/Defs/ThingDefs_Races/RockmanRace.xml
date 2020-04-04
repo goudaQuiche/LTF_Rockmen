@@ -29,7 +29,7 @@ While the Rockmen are generally not an adventurous race, and can only be consist
 		<Flammability>0</Flammability>
 		<!-- base 1.5 -->
 		<MeatAmount>45</MeatAmount>
-		<LeatherAmount>30</LeatherAmount>
+		<LeatherAmount>20</LeatherAmount>
 		
 		<CarryingCapacity>100</CarryingCapacity>
 		<!-- <MentalBreakThreshold>0.01</MentalBreakThreshold> -->
@@ -110,7 +110,6 @@ While the Rockmen are generally not an adventurous race, and can only be consist
 		<factionRelations>
 			<li>
 				<factions>
-				   
 				   <li>PlayerColony</li>
 				   <li>PlayerTribe</li>
 				   <li>RockmanPlayerColony</li>
@@ -120,7 +119,6 @@ While the Rockmen are generally not an adventurous race, and can only be consist
 				   <max>10</max>
 				</goodwill>
 			</li>
-
 		</factionRelations>
 		
 		<!-- <pawnsSpecificBackstories>true</pawnsSpecificBackstories> -->
@@ -216,10 +214,11 @@ While the Rockmen are generally not an adventurous race, and can only be consist
     
 <race>
 	<thinkTreeMain>Humanlike</thinkTreeMain>
-	<nameGenerator>NamerPersonRockman</nameGenerator>
 	<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
 	<intelligence>Humanlike</intelligence>
 	<makesFootprints>true</makesFootprints>
+	
+	<nameGenerator>NamerPersonRockman</nameGenerator>
 	<lifeExpectancy>250</lifeExpectancy>
 	<!-- granite -->
 	<bloodDef>Filth_RubbleRock</bloodDef>

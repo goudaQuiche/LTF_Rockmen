@@ -6,22 +6,44 @@
     <label>rockmanskin</label>
     <description>Tanned, dried, scraped rockman.</description>
     <graphicData>
-      <color>(105,95,97)</color>
+		<color>(105,95,97)</color>
     </graphicData>
     <statBases>
-      <MarketValue>4</MarketValue>
+      <MarketValue>3.75</MarketValue>
+	  <!--
       <StuffPower_Armor_Sharp>4</StuffPower_Armor_Sharp>
       <StuffPower_Armor_Blunt>2.5</StuffPower_Armor_Blunt>
       <StuffPower_Insulation_Cold>15</StuffPower_Insulation_Cold>
       <StuffPower_Insulation_Heat>40</StuffPower_Insulation_Heat>
+	  -->
+		<Mass>0.04</Mass>
+		<Flammability>0.3</Flammability>
+		<DeteriorationRate>4</DeteriorationRate>
+	  
+		<StuffPower_Armor_Sharp>1.1</StuffPower_Armor_Sharp>
+		<StuffPower_Armor_Blunt>.25</StuffPower_Armor_Blunt>
+		<StuffPower_Armor_Heat>4</StuffPower_Armor_Heat>
+		<StuffPower_Insulation_Cold>7</StuffPower_Insulation_Cold>
+		<StuffPower_Insulation_Heat>30</StuffPower_Insulation_Heat>
     </statBases>
-    <stuffProps>
-      <color>(105,95,97)</color>
-      <commonality>0.05</commonality>
-      <statFactors>
-        <MaxHitPoints>1.0</MaxHitPoints>
-      </statFactors>
-    </stuffProps>
+	
+	<burnableByRecipe>true</burnableByRecipe>
+    <healthAffectsPrice>false</healthAffectsPrice>
+	
+	<stuffProps>
+		<color>(105,95,97)</color>
+		<commonality>0.05</commonality>
+		<statFactors>
+			<Flammability>0.2</Flammability>
+			<MaxHitPoints>1.1</MaxHitPoints>
+			<Beauty>1.05</Beauty>
+		</statFactors>
+	</stuffProps>
+
+	<tradeTags>
+		<li>ExoticMisc</li>
+	</tradeTags>
+    <!-- <thingSetMakerTags><li>RewardStandardHighFreq</li></thingSetMakerTags> -->
   </ThingDef>
   
 </Defs>

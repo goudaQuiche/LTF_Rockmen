@@ -15,15 +15,15 @@
 	<invNutrition>4</invNutrition>
     <!--<apparelAllowHeadwearChance>0</apparelAllowHeadwearChance>-->
     <apparelTags>
-      <li>Neolithic</li>
+		<li>Neolithic</li>
     </apparelTags>
-	 <weaponTags>
-      <li>NonNeolithicOnlyMelee</li>
-      <li>NeolithicMeleeAdvanced</li>
-      <li>NeolithicRanged</li>
-      <li>NeolithicRangedBasic</li>
-      <li>NeolithicRangedHeavy</li>
-    </weaponTags>
+	<weaponTags>
+		<li>NonNeolithicOnlyMelee</li>
+		<li>NeolithicMeleeAdvanced</li>
+		<li>NeolithicRanged</li>
+		<li>NeolithicRangedBasic</li>
+		<li>NeolithicRangedHeavy</li>
+	</weaponTags>
   </PawnKindDef>
   
   <!-- ============================ Rockman Civilian Base ========================== -->
