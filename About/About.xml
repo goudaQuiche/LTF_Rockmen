@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Rockmen race</name>
+	<name>Rockmen race src</name>
 	<author>Gouda quiche</author>
 	<url>https://github.com/goudaQuiche</url>
 	<supportedVersions>
 			<li>1.0</li>
 			<li>1.1</li>
 	</supportedVersions>
-	<packageId>goudaquiche.LtfRockmenRace</packageId>
+	<packageId>goudaquiche.LtfRockmenRace.src</packageId>
 	
 	<modDependencies>
       <li>

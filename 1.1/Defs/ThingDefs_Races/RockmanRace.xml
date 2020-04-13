@@ -29,7 +29,7 @@ While the Rockmen are generally not an adventurous race, and can only be consist
 		<Flammability>0</Flammability>
 		<!-- base 1.5 -->
 		<MeatAmount>45</MeatAmount>
-		<LeatherAmount>20</LeatherAmount>
+		<LeatherAmount>12</LeatherAmount>
 		
 		<CarryingCapacity>100</CarryingCapacity>
 		<!-- <MentalBreakThreshold>0.01</MentalBreakThreshold> -->
@@ -292,7 +292,11 @@ While the Rockmen are generally not an adventurous race, and can only be consist
 		<!-- TODO -->
       </hediffGiverSets>
 	  
-</race>
+	</race>
+	
+	<butcherProducts>
+		<ChunkSandstone>1</ChunkSandstone>
+	</butcherProducts>
 
 	<recipes>
 		<li>InstallArchotechEye</li>
