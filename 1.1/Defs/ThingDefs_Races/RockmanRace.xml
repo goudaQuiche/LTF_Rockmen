@@ -28,8 +28,8 @@ While the Rockmen are generally not an adventurous race, and can only be consist
 
 		<Flammability>0</Flammability>
 		<!-- base 1.5 -->
-		<MeatAmount>45</MeatAmount>
-		<LeatherAmount>12</LeatherAmount>
+		<MeatAmount>50</MeatAmount>
+		<LeatherAmount>8</LeatherAmount>
 		
 		<CarryingCapacity>100</CarryingCapacity>
 		<!-- <MentalBreakThreshold>0.01</MentalBreakThreshold> -->
