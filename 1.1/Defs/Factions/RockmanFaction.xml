@@ -21,10 +21,14 @@
 		<techLevel>Industrial</techLevel>
 		<!--<backstoryCategory>RockmanBackstory</backstoryCategory>		-->
 
-		<backstoryCategories>
-			<li>Tribal</li>
-			<li>RockmanBackstory</li>
-		</backstoryCategories>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Tribal</li>
+					<li>RockmanBackstory</li>
+				</categories>
+			</li>
+		</backstoryFilters>
 		
 		<hairTags>
 			<li>Rural</li>

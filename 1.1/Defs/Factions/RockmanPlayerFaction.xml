@@ -28,10 +28,14 @@
 		<playerInitialSettlementNameMaker>NamerFactionRockmanVillage</playerInitialSettlementNameMaker>
 		<!-- <backstoryCategory>RockmanBackstory</backstoryCategory> -->
 
-		<backstoryCategories>
-			<li>RockmanBackstory</li>
-			<li>Tribal</li>
-		</backstoryCategories>
+		<backstoryFilters>
+			<li>
+			<categories>
+				<li>RockmanBackstory</li>
+				<li>Tribal</li>
+			</categories>
+			</li>
+		</backstoryFilters>
 		
 		<factionIconPath>Rockman/npcZoom</factionIconPath>
 		<settlementTexturePath>Rockman/City</settlementTexturePath>

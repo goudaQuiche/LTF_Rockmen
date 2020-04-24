@@ -6,14 +6,20 @@
   <PawnKindDef Name="RockmanBase" Abstract="True">
     <defaultFactionType>RockmanFaction</defaultFactionType>
     <race>Alien_Rockman</race>
-	<backstoryCategories>
-		<li>RockmanBackstory</li>
-	</backstoryCategories>
-	<!-- B19 <backstoryCategory>RockmanBackstory</backstoryCategory> -->
+	
+	<backstoryFiltersOverride>
+	<li>
+		<categories>
+			<li>Tribal</li>
+			<li>RockmanBackstory</li>
+		</categories>
+	</li>
+	</backstoryFiltersOverride>
+	
     <baseRecruitDifficulty>.85</baseRecruitDifficulty>
 	<chemicalAddictionChance>0.08</chemicalAddictionChance>
 	<invNutrition>4</invNutrition>
-    <!--<apparelAllowHeadwearChance>0</apparelAllowHeadwearChance>-->
+    
     <apparelTags>
 		<li>Neolithic</li>
     </apparelTags>
