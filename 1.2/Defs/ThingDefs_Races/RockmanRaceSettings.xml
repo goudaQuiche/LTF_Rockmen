@@ -16,7 +16,7 @@
 					</li>
 					<li>
 						<kindDefs>
-							<li>RockmanAddicted</li>
+							<li>LTF_Rockman_Addicted</li>
 						</kindDefs>
 						<chance>4.0</chance>
 					</li>
@@ -73,7 +73,7 @@
 					
 					<li>
 						<kindDefs>
-							<li>RockmanAddicted</li>
+							<li>LTF_Rockman_Addicted</li>
 						</kindDefs>
 						<chance>1.0</chance>
 					</li>
