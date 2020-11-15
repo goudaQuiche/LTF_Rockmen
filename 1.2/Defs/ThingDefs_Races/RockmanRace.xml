@@ -325,6 +325,11 @@ While the Rockmen are generally not an adventurous race, and can only be consist
 			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 
+			<specialShadowData>
+				<volume>(0.3, 0.8, 0.4)</volume>
+				<offset>(0,0,-0.3)</offset>
+			</specialShadowData>
+
 			<ageGenerationCurve>
 				<points>
 					<li>(20,0)</li>

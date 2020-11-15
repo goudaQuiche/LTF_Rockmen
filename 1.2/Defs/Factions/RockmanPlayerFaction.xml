@@ -3,7 +3,7 @@
 	<FactionDef Abstract="True" Name="RockmanFactionBase">
 		<factionIconPath>World/WorldObjects/Defaultbase</factionIconPath>
 		<!-- red -->
-				<colorSpectrum>
+		<colorSpectrum>
 			<li>(153, 51, 0)</li>
 			<li>(204, 153, 0)</li>
 			<li>(102, 102, 51)</li>
@@ -12,12 +12,16 @@
 
 	<FactionDef ParentName="RockmanFactionBase">
 		<defName>RockmanPlayerColony</defName>
-		<label>Tribal rocks</label>
+		<label>valiant rockmen</label>
 		<description>Your own pile of rock.</description>
+		
 		<isPlayer>true</isPlayer>
 		<basicMemberKind>Rockman</basicMemberKind>
-		<pawnsPlural>Rockmans</pawnsPlural>
-		
+		<pawnsPlural>Rockmen</pawnsPlural>
+
+		<factionIconPath>WorldIcon/Rockman_Faction</factionIconPath>
+		<settlementTexturePath>WorldIcon/Rockman_Settlement</settlementTexturePath>
+
 		<!--
 		<settlementNameMaker>NamerBaseRockmanVillage</settlementNameMaker>
 		<settlementNameMakerPlayer>NamerFactionRockmanVillage</settlementNameMakerPlayer>
@@ -30,28 +34,27 @@
 
 		<backstoryFilters>
 			<li>
-			<categories>
-				<li>RockmanBackstory</li>
-				<li>Tribal</li>
-			</categories>
+				<categories>
+					<li>RockmanBackstory</li>
+					<li>Tribal</li>
+				</categories>
 			</li>
 		</backstoryFilters>
+	
 		
-		<factionIconPath>Rockman/npcZoom</factionIconPath>
-		<settlementTexturePath>Rockman/City</settlementTexturePath>
-<!-- techLevel : Industrial Medieval Neolithic -->		
-<!-- StartingResearchTag : TribalStart ClassicStart -->
+		<!-- techLevel : Industrial Medieval Neolithic -->		
+		<!-- StartingResearchTag : TribalStart ClassicStart -->
 		<techLevel>Industrial</techLevel>
 		<startingResearchTags>
 			<li>TribalStart</li>
 		</startingResearchTags>		
-		
+
 		<hairTags>
 			<li>Tribal</li>
 			<li>Urban</li>
 			<li>Rockman</li>
 		</hairTags>
-						
+
 		<apparelStuffFilter>
 			<thingDefs>
 				<li>Cloth</li>
@@ -61,5 +64,5 @@
 			</thingDefs>
 		</apparelStuffFilter>
 	</FactionDef>
-	
+
 </Defs>

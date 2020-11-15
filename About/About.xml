@@ -17,6 +17,11 @@
 			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=839005762</steamWorkshopUrl>
 		</li>
 	</modDependencies>
+	
+	<loadAfter>
+		<li>erdelf.HumanoidAlienRaces</li>
+	</loadAfter>
+	
 	<incompatibleWith>
 		<li>goudaquiche.lighterthanfast</li>
 	</incompatibleWith>
@@ -31,7 +36,7 @@ Scenario :
  - Stonecutting research
 
 The Rockmen, as they have been nicknamed by humans, are called so because of their unique skin which according to scientific experiments can be nearly as hard and rugged as solid rock. Additionally, the Rockmen are extremely well conditioned and physically strong to compensate for their thick rock-like skin, giving them an astounding resilience. As a result of their physical attributes, the Rockmen have evolved throughout their race's existence into a warrior race which values personal strength and martial prowess over nearly everything else.
-While the Rockmen are generally not an adventurous race, and can only be consistently located within their own territories' borders, the Rockmen are liable to open fire on any ship they encounter that they aren't familiar with. Still, there are always exceptions to the rule, and having Rockmen crew can be very beneficial. Also, from random occurrences, some Rockmen seem to be quite religious.
+While the Rockmen are generally not an adventurous race, and can only be consistently located within their own territories borders, the Rockmen are liable to open fire on any ship they encounter that they aren't familiar with. Still, there are always exceptions to the rule, and having Rockmen crew can be very beneficial. Also, from random occurrences, some Rockmen seem to be quite religious.
 
  + 150% Health scale
  + 110% mining speed
@@ -46,5 +51,5 @@ Dependencies:
 
 Discussion thread:
  - https://ludeon.com/forums/index.php?topic=37908.0</description>
- 
+
 </ModMetaData>

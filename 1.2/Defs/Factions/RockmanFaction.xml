@@ -9,8 +9,8 @@
 		<settlementGenerationWeight>.3</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
 		
-		<factionIconPath>Rockman/npc</factionIconPath>
-		<settlementTexturePath>Rockman/npcZoom</settlementTexturePath>
+		<factionIconPath>WorldIcon/Rockman_Faction</factionIconPath>
+		<settlementTexturePath>WorldIcon/Rockman_Settlement</settlementTexturePath>
 		
 		<canSiege>true</canSiege>
 		<canMakeRandomly>true</canMakeRandomly>
