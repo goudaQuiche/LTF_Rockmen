@@ -1,7 +1,0 @@
-Outpost
-Checkpoint
-E.W. Platform
-Medical Station
-Drone Harbour
-Shield Station
-Broodstation
