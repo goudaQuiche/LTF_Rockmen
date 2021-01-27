@@ -12,6 +12,6 @@
 	<v1.2>
 		<li>Common</li>
 		<li>1.2</li>
-		<li IfModActive="Ludeon.Rimworld.Royalty">Royalty_Patch</li>
+		<li IfModActive="Ludeon.Rimworld.Royalty">ConditionalPatches/Royalty_Patch</li>
 	</v1.2>
 </loadFolders>
