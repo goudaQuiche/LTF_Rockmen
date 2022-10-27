@@ -45,9 +45,10 @@ While the Rockmen are generally not an adventurous race, and can only be consist
 		-->
 			<ArmorRating_Blunt>.3</ArmorRating_Blunt>
 			<ArmorRating_Sharp>.55</ArmorRating_Sharp>
-			
+
 			<RoyalFavorValue>3</RoyalFavorValue>
 		</statBases>
+
 		<tools>
 			<li>
 				<label>left fist</label>
@@ -109,6 +110,16 @@ While the Rockmen are generally not an adventurous race, and can only be consist
 
 			<generalSettings>
 				<humanRecipeImport>true</humanRecipeImport>
+				<maleGenderProbability>.85</maleGenderProbability>
+				<minAgeForAdulthood>36</minAgeForAdulthood>
+
+				<!-- <growthAges>
+					<li>9</li>
+					<li>15</li>
+					<li>24</li>
+				</growthAges> -->
+
+
 				<factionRelations>
 					<li>
 						<factions>
@@ -257,8 +268,6 @@ While the Rockmen are generally not an adventurous race, and can only be consist
 					</colorChannels>
 				</alienPartGenerator>
 
-				<maleGenderProbability>.85</maleGenderProbability>
-
 				<forcedRaceTraitEntries>
 					<li>
 						<defName>Ascetic</defName>
@@ -278,11 +287,22 @@ While the Rockmen are generally not an adventurous race, and can only be consist
 
 				<body>Rockman/Body/</body>
 				<head>Rockman/Head/</head>
-				<!-- <skeleton>Humanoid/RotenBody/Rock/RockRoten</skeleton> -->
-				<!-- <skeleton>Rockman/Dessicated/</skeleton> -->
-				<skeleton>Rockman/Dessicated/Dessicated_Male</skeleton>
-				<skull>Rockman/Skull/RockSkull</skull>
-
+				<!-- <skeleton>Rockman/Dessicated/Dessicated_Male</skeleton> -->
+				<skeleton>
+					<bodytypeGraphics>
+						<Male>Rockman/Dessicated/Dessicated_Male</Male>
+						<Hulk>Rockman/Dessicated/Dessicated_Hulk</Hulk>
+						<Female>Rockman/Dessicated/Dessicated_Female</Female>
+						<Child>Rockman/Dessicated/Dessicated_Child</Child>
+					</bodytypeGraphics>
+				</skeleton>
+				<!-- <skull>Rockman/Skull/RockSkull</skull> -->
+				<skull>
+					<genderGraphics>
+						<Male>Rockman/Skull/Skull_Male</Male>
+						<Female>Rockman/Skull/Skull_Female</Female>
+					</genderGraphics>
+				</skull>
 			</graphicPaths>
 
 			<styleSettings>
@@ -364,12 +384,12 @@ While the Rockmen are generally not an adventurous race, and can only be consist
 			</lifeStageAges>
 
 			<lifeStageWorkSettings MayRequire="Ludeon.RimWorld.Biotech">
-				<Firefighter>7</Firefighter>
+				<Firefighter>6</Firefighter>
 				<Patient>0</Patient>
 				<Doctor>10</Doctor>
 				<PatientBedRest>0</PatientBedRest>
 				<Childcare MayRequire="Ludeon.RimWorld.Biotech">0</Childcare>
-				<BasicWorker>7</BasicWorker>
+				<BasicWorker>6</BasicWorker>
 				<Warden>10</Warden>
 				<Handling>7</Handling>
 				<Cooking>7</Cooking>
